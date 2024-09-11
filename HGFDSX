@@ -1,18 +1,1 @@
-ugen = []
 
-for xd in range(10000):
-    aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_6 like Mac OS X)'
-    b = random.choice(['4', '5', '6', '7', '8', '9', '10', '11', '12'])
-    c = 'AppleWebKit/605.1.15 (KHTML, like Gecko)'
-    d = random.choice(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e = random.randrange(1, 999)
-    f = random.choice(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g = 'GSA/331.0.665236494 Mobile/15E148 Safari/604.1'
-    h = random.randrange(73, 100)
-    i = '0'
-    j = random.randrange(4200, 4900)
-    k = random.randrange(40, 150)
-    l = ''
-    
-    uakua = f'{aa} AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/331.0.665236494 Mobile/15E148 Safari/604.1'
-    ugen.append(uakua)
